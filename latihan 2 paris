@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Praktikum minggu ke-1</title>
+	<meta charset=”utf-8″>
+    <link rel="stylesheet" href="styleM1.css">
+	
+</head>
+<body>
+    <!--BAGIAN TOP-NAV-->
+	<div class="Top-Nav">
+        <br><br>
+        <h1>City Gallery</h1>
+    </div>
+
+     <!--BAGIAN SAMPING KIRI-->
+    <div class="Left-Content">
+        <div class="Left-Content">
+            <a href="latihan 2 london.html"><h2>London</h2></a>
+            <a href="latihan 2 jambi.html"><h2>Jambi</h2></a>
+            <a href="latihan 2 paris.html"><h2>Paris</h2></a>
+        </div>
+    </div>
+
+    <!--BAGIAN KONTEN ARTIKEL-->
+    <div class="artikel">
+        <article>
+            <h1>La Voila, Paris!</h1>
+             <p>Bounjour tous le jours! Paris adalah adalah ibu kota Prancis. Terletak di sungai Seine, di utara Prancis, 
+                di jantung region Île-de-France (juga dikenal sebagai "Region Paris"; bahasa Prancis: Région parisienne). 
+                Kota Paris pada batas administratifnya (tak berubah sejak 1860) memiliki penduduk 2.167.994 jiwa (Januari 2006).
+                Unité urbaine Paris (atau wilayah urban) memanjang ke luar batas kota administratif dan memiliki perkiraan penduduk 9.93 juta (tahun 2005).
+                Aire urbaine Paris (atau wilayah metropolitan) memiliki penduduk hampir 12 juta jiwa,
+                dan merupakan salah satu wilayah metropolitan terpadat di Eropa.
+            </p>
+
+            <p>Permukiman penting bagi lebih dari dua milenium, Paris hari ini menjadi salah satu pusat bisnis dan budaya terdepan di dunia, 
+            dan campuran politik, pendidikan, hiburan, media, fashion, sains dan seni semuanya membantu statusnya sebagai salah satu kota global terbesar di dunia.
+            </p>
+        </article>
+    </div>
+
+    <center>
+        <img src="paris.jpg"
+        width="400px" height="300px" title="Paris, London" alt="Paris" style="margin-top:100px">
+    </center>
+
+    <!--BAGIAN FOOTER-->
+    <div class="footer">
+        <h3>Copyright @ismydwi</h3>
+    </div>
+
+</body>
+</html>

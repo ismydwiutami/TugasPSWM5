@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Praktikum minggu ke-1</title>
+	<meta charset=”utf-8″>
+    <link rel="stylesheet" href="styleM1.css">
+	
+</head>
+<body>
+    <!--BAGIAN TOP-NAV-->
+	<div class="Top-Nav">
+        <br><br>
+        <h1>City Gallery</h1>
+    </div>
+
+     <!--BAGIAN SAMPING KIRI-->
+    <div class="Left-Content">
+        <a href="latihan 2 london.html"><h2>London</h2></a>
+        <a href="latihan 2 jambi.html"><h2>Jambi</h2></a>
+        <a href="latihan 2 paris.html"><h2>Paris</h2></a>
+    </div>
+
+    <!--BAGIAN KONTEN ARTIKEL-->
+    <div class="artikel">
+        <article>
+            <h1>Kota Jambi</h1>
+             <p>Jambi sebagai daerah pemukiman atau pemusatan penduduk bahkan sebagai pusat kedudukan 
+                pemerintahan telah berjalan dari masa ke masa. Sejarah Dinasti Sung menguraikan bahwa Maharaja San-fo-tsi (Swarnabhumi) 
+                bersemayam di Chan-pi. Utusan dari Chan-pi datang untuk pertama kalinya di istana Kaisar China pada tahun 853M. 
+                Utusan ke dua kalinya datang pula pada tahun 871M. Informasi ini menorehkan bahwa Chan-pi (yang diidentifikasikan Prof. 
+                Selamat Mulyana sebagai Jambi) sudah muncul diberita China pada tahun–tahun tersebut. 
+                Dengan demikian Chan-pi atau Jambi sudah ada dan dikenal pada abad ke 9M. Berita China Ling Pio Lui (890-905M) 
+                juga menyebut Chan-pi (Jambi) mengirim misi dagang ke China.
+            </p>
+            <p>Profesor Moh. Yamin mengidentifikasi Jambi berada disekitar Kantor Gubernur Jambi di Telanaipura sekarang.
+                Indikasi ini atas dasar mulai dari kawasan Mesjid Agung Al-falah sampai ke Pematang pinggiran Danau 
+                Sipin terdapat deretan struktur batuan bata candi yang diantaranya menunjukan sebagai komplek percandian yang cukup besar dikawasan kampung Legok.
+            </p>
+        </article>
+    </div>
+
+    <center>
+        <img src="https://images.tokopedia.net/img/JFrBQq/2022/6/30/847e5adc-4c9c-4728-823b-8a39775bfaf9.jpg" 
+        width="400px" height="300px" title="Nama kucing ini adalah delta, kucingnya wegy" alt="Foto kucing wegy" style="margin-top:100px">
+    </center>
+
+    <!--BAGIAN FOOTER-->
+    <div class="footer">
+        <h3>Copyright @Ismydwi</h3>
+    </div>
+
+</script>
+</body>
+</html>

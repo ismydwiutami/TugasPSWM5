@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Praktikum minggu ke-1</title>
+	<meta charset=”utf-8″>
+	<style> 
+		body{
+			background-image:  url('D:/1_SEMESTER 5/Praktikum_SIGWEB/SimpleHomePage-main/SimpleHomePage-main/image/booklet_logo_toya_gama_page-0001.jpeg');
+		}
+
+		#fname{
+			margin-bottom: 5px; 
+			margin-left: 8.8px;
+		}
+		a{
+			text-decoration:none;
+		}
+
+		table, th, td {
+			border:1px solid black;
+		}
+	</style>
+</head>
+<body>
+<!--BODYY-->
+	<div id="teks">
+	<h1>Praktek SIGNET Minggu-2</h1> <!--merupakan first heading pada sebuah teks-->
+	</div>
+
+	<div id="box" style="width:700px;"> <!--membuat box sepanjang 700 pixel-->
+	<marquee title="Info teks bergerak wakakkaka" behavior="alternate" direction="right"> 
+		<!--Membuat teks bergerak dari kiri ke kanan dan akan kembali ke arah sebaliknya jika sisi box-->
+
+		<p>Praktek SIGNET Minggu ini adalah membuat sebuah halaman HTML sederhana</p> <!--script untuk membuat paragraph-->
+	</marquee>
+	</div>
+	<a href="https://geodesi.ugm.ac.id/" target="_blank">Link ini mengarah ke Website Teknik Geodesi</a> <!--membuat hyperlink berdasarkan link eksternal-->
+	<br><br> <!--breakline-->
+	<i>Tulisan ini miring, </i> <!--membuat tulisan jadi miring--> <b>tapi yang ini tebal.</b> <!--membuat tulisan jadi tebal-->
+
+	<p style="color:red">Baris yang ini warnanya merah</p> <!--menggunakan inline style untuk mengubah teks paragraf menjadi warna merah--> <!---->
+	<p>Lalu muncul gambar kucing</p>
+	<img src="foto kucing simy.jpg" width="300px" height="300px" title="Nama kucing ini adalah delta, kucingnya wegy" alt="Foto kucing wegy">
+	<!--Menambahkan  gambar dari sumber internal laptop/eksternal dengan mengatur panjang, lebar, judul gambar, dan keterangan gambar jika gambar tidak muncul-->
+
+	<h2>Setelah heading kedua ini ada tabel</h2> <!--merupakan script second heading pada sebuah teks-->
+	<hr style="margin-left: 0%;" width="535px"> 
+	<!--script membuat garis horizontal dengan mengatur antara jarak garis horizontal dansisi kiri html sebesar 0% dan panjang garis sebesar 535px-->
+
+	<table> <!--Script Untuk inisiasi table-->
+		<tr> <!--script untuk membuat kolom tabel-->
+			<th>Nama Depan</th> <!--script untuk membuat baris tabel yang berperan sebagai judul dari entitas tabel-->
+			<th>Usia</th>
+		</tr> <!--merupakan tag penutup dari tr-->
+
+		<tr>
+			<td>Kucing</td> <!--script untuk membuat isi baris tabel-->
+			<td>50</td>
+		</tr>
+
+		<tr>
+			<td>Koala</td>
+			<td>94</td>
+		</tr>
+	</table>
+
+	<h2>Setelah garis ini ada form</h2>
+	<hr style="margin-left: 0%;" width="535px">
+
+	<p>kemudian ada form berikut ini:</p>
+
+	<!--Script untuk membuat form-->
+	<form action="/action_page.php">
+		<label for="fname">Nama:</label>
+		<input type="text" id="fname" name="fname" value=""><br> <!--Kolom input form-->
+		<label for="lname">Alamat:</label>
+		<input type="text" id="lname" name="lname" value=""><br><br>
+		<input type="submit" value="SUBMIT">
+	</form>
+	<br>
+</body>
+</html>
